@@ -1,0 +1,274 @@
+!SESSION 2023-11-15 21:27:47.888 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/Produtos/.cache/jdt-language-server/data/home/runner/Produtos
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:02.907
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:05.587
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:06.144
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:06.146
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:06.270
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:06.272
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:06.412
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:06.446
+!MESSAGE Wait for AutoBuildOffJob end 32ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:06.476
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:06.484
+!MESSAGE Started org.eclipse.m2e.core 10ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:06.489
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:06.491
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:06.877
+!MESSAGE Started org.eclipse.buildship.core 386ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:11.667
+!MESSAGE LoadingGradleVersionJob finished 4712ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:12.269
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:12.445
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:13.162
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:21.621
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-15 21:28:22.359
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/Produtos overlaps the workspace location: /home/runner/Produtos/.cache/jdt-language-server/data/home/runner/Produtos
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-15 21:28:22.362
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-15 21:28:22.362
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-15 21:28:22.362
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-15 21:28:22.362
+!MESSAGE /home/runner/Produtos overlaps the workspace location: /home/runner/Produtos/.cache/jdt-language-server/data/home/runner/Produtos
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:22.766
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:22.901
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:23.168
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:23.180
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:23.187
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:26.375
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:31.646
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:33.560
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:33.577
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:33.664
+!MESSAGE Validated 1. Took 6881 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:33.853
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:33.962
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:34.065
+!MESSAGE Reconciled 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:34.073
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:34.672
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:35.578
+!MESSAGE begin problem for /ControleEstoque.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:36.384
+!MESSAGE 1 problems reported for /ControleEstoque.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:37.280
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:37.282
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:37.353
+!MESSAGE Validated 2. Took 2706 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:37.357
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:37.366
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:37.776
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:37.779
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:37.857
+!MESSAGE Clearing problems for /ControleEstoque.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:37.869
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:39.057
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:39.069
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:39.104
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:39.244
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:40.053
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:40.054
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:40.057
+!MESSAGE Clearing problems for /ControleEstoque.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:40.059
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:40.656
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:40.662
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:40.850
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:40.857
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:42.056
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:42.065
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:42.152
+!MESSAGE Clearing problems for /ControleEstoque.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:42.174
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:42.845
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:42.850
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:43.073
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:43.244
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:43.945
+!MESSAGE begin problem for /ControleEstoque.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:43.975
+!MESSAGE 1 problems reported for /ControleEstoque.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:47.373
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:47.374
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:47.376
+!MESSAGE Validated 2. Took 4127 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:47.548
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:47.672
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:47.750
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:47.848
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:47.851
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:47.866
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:49.871
+!MESSAGE begin problem for /Produto.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:49.872
+!MESSAGE 1 problems reported for /Produto.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:54.110
+!MESSAGE begin problem for /ControleEstoque.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:54.286
+!MESSAGE 1 problems reported for /ControleEstoque.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:57.050
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:57.052
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-15 21:28:57.059
+!MESSAGE Validated 3. Took 8502 ms
